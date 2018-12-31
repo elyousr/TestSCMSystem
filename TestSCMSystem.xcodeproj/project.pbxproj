@@ -13,9 +13,12 @@
 		10D1680021DA7ADC004D4264 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10D167FF21DA7ADC004D4264 /* DetailViewController.swift */; };
 		10D1680321DA7ADC004D4264 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10D1680121DA7ADC004D4264 /* Main.storyboard */; };
 		10D1680521DA7ADC004D4264 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10D1680421DA7ADC004D4264 /* Assets.xcassets */; };
-		10D1680821DA7ADC004D4264 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10D1680621DA7ADC004D4264 /* LaunchScreen.storyboard */; };
 		10D1681321DA7ADC004D4264 /* TestSCMSystemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10D1681221DA7ADC004D4264 /* TestSCMSystemTests.swift */; };
 		10D1681E21DA7ADC004D4264 /* TestSCMSystemUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10D1681D21DA7ADC004D4264 /* TestSCMSystemUITests.swift */; };
+		10D1682F21DA7ED0004D4264 /* Default-Half.png in Resources */ = {isa = PBXBuildFile; fileRef = 10D1682B21DA7ED0004D4264 /* Default-Half.png */; };
+		10D1683021DA7ED0004D4264 /* Default-568h@2x copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 10D1682C21DA7ED0004D4264 /* Default-568h@2x copy.png */; };
+		10D1683121DA7ED0004D4264 /* Default-568h@2x copy 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 10D1682D21DA7ED0004D4264 /* Default-568h@2x copy 2.png */; };
+		10D1683221DA7ED0004D4264 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 10D1682E21DA7ED0004D4264 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +46,6 @@
 		10D167FF21DA7ADC004D4264 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		10D1680221DA7ADC004D4264 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		10D1680421DA7ADC004D4264 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		10D1680721DA7ADC004D4264 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		10D1680921DA7ADC004D4264 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		10D1680E21DA7ADC004D4264 /* TestSCMSystemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestSCMSystemTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		10D1681221DA7ADC004D4264 /* TestSCMSystemTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSCMSystemTests.swift; sourceTree = "<group>"; };
@@ -51,6 +53,10 @@
 		10D1681921DA7ADC004D4264 /* TestSCMSystemUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestSCMSystemUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		10D1681D21DA7ADC004D4264 /* TestSCMSystemUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSCMSystemUITests.swift; sourceTree = "<group>"; };
 		10D1681F21DA7ADC004D4264 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10D1682B21DA7ED0004D4264 /* Default-Half.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Half.png"; path = "../../../Sources/Raywenderlich The iOS Apprentice 5th Edition/The iOS Apprentice 1 - Getting Started/Resources/Launch Images/Default-Half.png"; sourceTree = "<group>"; };
+		10D1682C21DA7ED0004D4264 /* Default-568h@2x copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x copy.png"; path = "../../../Sources/Raywenderlich The iOS Apprentice 5th Edition/The iOS Apprentice 1 - Getting Started/Resources/Launch Images/Default-568h@2x copy.png"; sourceTree = "<group>"; };
+		10D1682D21DA7ED0004D4264 /* Default-568h@2x copy 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x copy 2.png"; path = "../../../Sources/Raywenderlich The iOS Apprentice 5th Edition/The iOS Apprentice 1 - Getting Started/Resources/Launch Images/Default-568h@2x copy 2.png"; sourceTree = "<group>"; };
+		10D1682E21DA7ED0004D4264 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../../../Sources/Raywenderlich The iOS Apprentice 5th Edition/The iOS Apprentice 1 - Getting Started/Resources/Launch Images/Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,12 +107,15 @@
 		10D167F721DA7ADC004D4264 /* TestSCMSystem */ = {
 			isa = PBXGroup;
 			children = (
+				10D1682B21DA7ED0004D4264 /* Default-Half.png */,
+				10D1682C21DA7ED0004D4264 /* Default-568h@2x copy.png */,
+				10D1682D21DA7ED0004D4264 /* Default-568h@2x copy 2.png */,
+				10D1682E21DA7ED0004D4264 /* Default-568h@2x.png */,
 				10D167F821DA7ADC004D4264 /* AppDelegate.swift */,
 				10D167FD21DA7ADC004D4264 /* MasterViewController.swift */,
 				10D167FF21DA7ADC004D4264 /* DetailViewController.swift */,
 				10D1680121DA7ADC004D4264 /* Main.storyboard */,
 				10D1680421DA7ADC004D4264 /* Assets.xcassets */,
-				10D1680621DA7ADC004D4264 /* LaunchScreen.storyboard */,
 				10D1680921DA7ADC004D4264 /* Info.plist */,
 				10D167FA21DA7ADC004D4264 /* TestSCMSystem.xcdatamodeld */,
 			);
@@ -238,8 +247,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				10D1680821DA7ADC004D4264 /* LaunchScreen.storyboard in Resources */,
+				10D1682F21DA7ED0004D4264 /* Default-Half.png in Resources */,
+				10D1683121DA7ED0004D4264 /* Default-568h@2x copy 2.png in Resources */,
+				10D1683021DA7ED0004D4264 /* Default-568h@2x copy.png in Resources */,
 				10D1680521DA7ADC004D4264 /* Assets.xcassets in Resources */,
+				10D1683221DA7ED0004D4264 /* Default-568h@2x.png in Resources */,
 				10D1680321DA7ADC004D4264 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -310,14 +322,6 @@
 				10D1680221DA7ADC004D4264 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		10D1680621DA7ADC004D4264 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				10D1680721DA7ADC004D4264 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
